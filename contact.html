@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+     <!-- bootstrap link -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+     <!-- css link -->
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!--Header code-->
+  <div id="header">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+ <script>
+    $(function(){
+        $("#header").load("header.html")
+    })
+ </script>
+</div>
+    <h1 style="text-align: center;">
+        <b>Contact us</b>
+    </h1>
+    <div class="row" id="contact">
+        <div class="column">
+            <img  class="contact-img" src="https://static.vecteezy.com/system/resources/previews/002/147/279/original/young-man-and-woman-with-headphones-microphone-and-computer-customer-service-support-or-call-center-concept-free-vector.jpg">
+        </div>
+        <div class="column">
+            <form id="contact-form">
+               <!-- Name input -->
+                <div class="form-outline mb-4">
+                  <label class="form-label" for="form2Example2">Name</label>
+                  <input type="text" id="name" class="form-control" placeholder="Enter Your name"/>
+                  
+                </div>
+                 <!-- Email input -->
+                <div class="form-outline mb-4">
+                  <label class="form-label" for="form2Example1">Email address</label>
+                  <input type="email" id="email-contact" class="form-control" placeholder="Enter your email address" />
+                  
+                </div>
+                <!-- text input -->
+                <div class="form-outline mb-4">
+                    <label class="form-label" for="form2Example2">Message</label>
+                    <input type="text" id="messeage-contact" class="form-control" placeholder="Enter your messeage"/>
+                    
+                  </div>
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-primary btn-block mb-4" value="submit-contact"> Submit </button>
+            
+                </div>
+              </form>
+        </div>
+    </div>
+     <!--Footer-->
+     <div id="footer">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script>
+      $(function(){
+          $("#footer").load("footer.html")
+      })
+   </script>
+   </div>
+      
+  
+    
+    <script src="index.js"></script>
+</body>
+</html>
